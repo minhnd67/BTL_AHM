@@ -1,0 +1,109 @@
+/* * {
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: sans-serif, Verdana, arial;
+} */
+
+.form-create-and-update {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* product-title */
+.product-title {
+    border-bottom: solid 1px rgba(122, 120, 120, 0.151);
+    padding: 10px 0;
+}
+
+.product-title a {
+    text-decoration: none;
+    color: black;
+    transition: 0.2s linear;
+}
+
+.product-title h2 {
+    display: inline;
+}
+
+.product-title a:hover {
+    color: rgb(243, 82, 82);
+}
+
+.product-title .title-name {
+    font-size: 1.5em;
+    border-bottom: 2px solid rgb(243, 82, 82); 
+}
+
+/* css form */
+.form-create-and-update form {
+    width: 90%;
+    margin: auto;
+}
+
+.form-create-and-update form table{
+    width: 100%;
+}
+
+.form-create-and-update form td{
+    padding: 10px;
+}
+
+.form-create-and-update input {
+    display: inline-block;
+    width: 100%;
+    border: solid 1px rgba(122, 120, 120, 0.603);
+    border-radius: 5px;
+    height: 30px;
+}
+
+.form-create-and-update textarea {
+    width: 100%;
+    border: solid 1px rgba(122, 120, 120, 0.473);
+}
+
+#category {
+    width: 20%;
+    height: 30px;
+    border: solid 1px rgba(122, 120, 120, 0.603);
+    border-radius: 5px;
+}
+
+.label-input {
+   width: 25%;
+   text-align: right;
+   padding-right: 25px ;
+}
+
+.button-group {
+    text-align: right;
+    margin-right: 20px;
+}
+
+.button-group a {
+    text-decoration: none;
+    border: solid 1px rgba(122, 120, 120, 0.603);
+    background-color: rgba(175, 174, 174, 0.438);
+    padding: 5px;
+    border-radius: 5px;
+    color: black;
+    transition: 0.5s;
+}
+
+.button-group button {
+    height: inherit;
+    border: solid 1px rgba(122, 120, 120, 0.603);
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(245, 66, 66);
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.button-group button:hover {
+    background-color: rgb(243, 35, 35);
+}
+
+.button-group a:hover {
+    background-color: rgb(175, 174, 174);
+}

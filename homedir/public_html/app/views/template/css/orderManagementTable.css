@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: sans-serif, Verdana, arial;
+}
+
+.orderManagement {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+.orderManagement table {
+    width: 100%;
+    text-align: left;
+}
+
+.orderManagement table, .orderManagement tr,.orderManagement td,.orderManagement th {
+    border: solid 1px rgba(122, 120, 120, 0.151);
+    border-collapse: collapse;
+}
+
+.orderManagement td, .orderManagement th {
+    padding: 10px;
+}
+
+.orderManagement th {
+    background-color: rgba(122, 120, 120, 0.151);
+}
+
+.order-manipulation a {
+    text-decoration: none;
+    padding: 5px;
+    transition: 0.5s linear;
+}
+
+.order-manipulation a:hover {
+    text-decoration: underline;
+    color: rgb(243, 82, 82);
+}
+
+.product-title {
+    border-bottom: solid 1px rgba(122, 120, 120, 0.151);
+    padding: 10px 0;
+}
+
+.product-title h2 {
+    display: inline;
+    color: black;
+    transition: 0.2s linear;
+}
+
+.product-title h2 {
+    font-size: 1.5em;
+    border-bottom: 2px solid rgb(243, 82, 82); 
+}
+
+.product-title a {
+    text-decoration: none;
+    color: black;
+    transition: 0.2s linear;
+}
+
+.product-title a:hover {
+    color: rgb(243, 82, 82);
+}
+
+.product-title .title-name {
+    font-size: 1.5em;
+    /* border-bottom: 2px solid rgb(243, 82, 82);  */
+}

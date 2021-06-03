@@ -1,0 +1,3 @@
+Running command: /usr/local/cpanel/3rdparty/bin/git clone --origin=origin https://github.com/web-technology-HUST/BTL_AHM /home/catsecur/repositories/BTL_AHM
+
+Cloning into '/home/catsecur/repositories/BTL_AHM'...

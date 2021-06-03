@@ -1,0 +1,31 @@
+; cPanel first:92.0.12 (update_time):1622087476 Cpanel::ZoneFile::VERSION:1.3 hostname:free01.123host.vn latest:92.0.12
+; Zone file for catsecure.vn
+$TTL 14400
+catsecure.vn.	86400	IN	SOA	ns1.luutruso.com.	root.free01.123host.vn.	(
+						2021052701 ;Serial Number
+						3600 ;refresh
+						1800 ;retry
+						1209600 ;expire
+						86400	)
+
+catsecure.vn.	86400	IN	NS	ns1.luutruso.com.
+catsecure.vn.	86400	IN	NS	ns2.luutruso.com.
+catsecure.vn.	86400	IN	NS	ns3.luutruso.com.
+
+
+catsecure.vn.	14400	IN	A	103.97.125.247
+
+catsecure.vn.	14400	IN	MX	0	catsecure.vn.
+
+mail	14400	IN	CNAME	catsecure.vn.
+www	14400	IN	CNAME	catsecure.vn.
+ftp	14400	IN	A	103.97.125.247
+catsecure.vn.	14400	IN	TXT	"v=spf1 +a +mx +ip4:103.97.125.254 ~all"
+webmail	14400	IN	A	103.97.125.247
+cpanel	14400	IN	A	103.97.125.247
+cpcalendars	14400	IN	A	103.97.125.247
+webdisk	14400	IN	A	103.97.125.247
+whm	14400	IN	A	103.97.125.247
+cpcontacts	14400	IN	A	103.97.125.247
+default._domainkey	14400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtB7sueOwMipAqSYq2fxdVNAQ8IJ1WK9Psu/AFqOzo8fp8aEHh2pH0LaN8xxCUIGF1XNKGgFx3bNSkqDM0zh2i9vSElC/61gGD3S9gAD5U9UXckiryJ1yR+gy3vktqskB8tzcIR5rvfnMmfAADZj0tDAUeT/ZQ+FhIYeF1fRTtB54X9iAnfcUoSawAvv1B67b8" 6kVBGBX1TCDHMwr3+28Y9Ni8CIvTkVIK1njqrecJwAApsxdrDWwDf81vsjXWIAnSwYcwowjnl0Z24i/n/nm6Ffv5dtXkUzBwXJUz3tkYs+nHRIjtkPjaTJAkDR5lCTt+aSlifxv6rku8dalX2JmzQIDAQAB\;
+_cpanel-dcv-test-record	14400	IN	TXT	_cpanel-dcv-test-record=ybbKoMKYh9v4HLv0_1Qv3a2YGyc0qFX1zzUvegcB_inPKP9blIG1I4Yp4W2dgB9K

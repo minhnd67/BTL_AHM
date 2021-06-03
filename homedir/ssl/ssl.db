@@ -1,0 +1,95 @@
+--- 
+files: 
+  certificate: 
+    catsecure_vn_cdea5_5c1c7_1652626372_3de60d62debfa4a2b72931b9013f0a9c: 
+      created: '1621090372'
+      domains: 
+        - catsecure.vn
+        - mail.catsecure.vn
+        - www.catsecure.vn
+        - cpanel.catsecure.vn
+        - webmail.catsecure.vn
+        - webdisk.catsecure.vn
+        - cpcontacts.catsecure.vn
+        - cpcalendars.catsecure.vn
+      ecdsa_curve_name: ~
+      ecdsa_public: ~
+      friendly_name: Cert for “catsecure.vn”
+      id: catsecure_vn_cdea5_5c1c7_1652626372_3de60d62debfa4a2b72931b9013f0a9c
+      is_self_signed: 1
+      issuer.commonName: catsecure.vn
+      issuer.organizationName: ~
+      key_algorithm: rsaEncryption
+      modulus: cdea5772eda098845e58f9e0a04e5c8f4ec5232bb7423e8879fc80aec9147ed84f7e998ce7c091c756325ae15b1571101887f3c1961b8897437ce24dff6a0d024ad8f16102c4d285e6938898573483d22f7fa01e89cb7169d83e6776174d519435deb3494b12b4c8fe85eafff95dbbb7c4a9961f624143e312c644c0bda832a84fec45198c553665aa1f49be2c024c7e6b9e8479659bbf52a85a90cd4b3cb0b2f0cf391897ab9ecfa78b08f6fb34e08780cf4f8c0ecd2c9faa7efbc2225422f24c2ee5447edb3d7be0ea62e1a7f3e890ba4f576849ee6bbc52cdfc8ee8e48e7108b2320913bcf591d323ae19be32c1e018ea6d47ad15e5a0ba7315454565c1c7
+      modulus_length: 2048
+      not_after: '1652626372'
+      not_before: '1621090372'
+      serial: 0152a0a593
+      signature_algorithm: sha256WithRSAEncryption
+      subject.commonName: catsecure.vn
+      validation_type: ~
+    www_catsecure_vn_a0d89_ed555_1629289568_e621e58adb7e5c72443a9939c4853398: 
+      created: '1621517169'
+      domains: 
+        - catsecure.vn
+        - mail.catsecure.vn
+        - www.catsecure.vn
+      ecdsa_curve_name: ~
+      ecdsa_public: ~
+      friendly_name: Cert for “catsecure.vn” 1621517169.0
+      id: www_catsecure_vn_a0d89_ed555_1629289568_e621e58adb7e5c72443a9939c4853398
+      is_self_signed: 0
+      issuer.commonName: R3
+      issuer.organizationName: Let's Encrypt
+      key_algorithm: rsaEncryption
+      modulus: a0d89b72710bf20fa095a8851c382d56aad77f728b1c9433e68c3ea424eb9fefebaf8f7ae858c56a5e34c5a0ec0f815b12b0b6fe7ae89b361ec9154787b72e738140a5ccc35c388d47996a1bcf44d66ee6bd8dc13492f3cadb8a2e8a6918f3b4dbacc2013a0a89bda694baa652e3ac28328a3f92a5a32f8e918c1f256e415c75e0b17ea2469f2e3e07ab3a0223279cd97eb50553a2abfb7d265a983c1a75bd0dfbf053c1c7c424f4ae038b04d69cdb955d3b1088b796c0250d2f0a1faccfa25714d9db4aa66b750a04fac4a2862cfb9181bb6b2480fc3753bd0d0d8348b5df8c655e6079dca6200970e1ea66eba66ef41a7bf9991e7acc703f4677f0253ed555
+      modulus_length: 2048
+      not_after: '1629289568'
+      not_before: '1621513568'
+      serial: 036bcd0f2c3ed80f354876636f50d64b7369
+      signature_algorithm: sha256WithRSAEncryption
+      subject.commonName: www.catsecure.vn
+      validation_type: dv
+  key: 
+    a0d89_ed555_bf9b9dc630f4b7d3881fd8f6dd2505aa: 
+      created: '1621517169'
+      ecdsa_curve_name: ~
+      ecdsa_public: ~
+      friendly_name: Key for “catsecure.vn” 1621517169.0
+      id: a0d89_ed555_bf9b9dc630f4b7d3881fd8f6dd2505aa
+      key_algorithm: rsaEncryption
+      modulus: a0d89b72710bf20fa095a8851c382d56aad77f728b1c9433e68c3ea424eb9fefebaf8f7ae858c56a5e34c5a0ec0f815b12b0b6fe7ae89b361ec9154787b72e738140a5ccc35c388d47996a1bcf44d66ee6bd8dc13492f3cadb8a2e8a6918f3b4dbacc2013a0a89bda694baa652e3ac28328a3f92a5a32f8e918c1f256e415c75e0b17ea2469f2e3e07ab3a0223279cd97eb50553a2abfb7d265a983c1a75bd0dfbf053c1c7c424f4ae038b04d69cdb955d3b1088b796c0250d2f0a1faccfa25714d9db4aa66b750a04fac4a2862cfb9181bb6b2480fc3753bd0d0d8348b5df8c655e6079dca6200970e1ea66eba66ef41a7bf9991e7acc703f4677f0253ed555
+      modulus_length: 2048
+    cdea5_5c1c7_f4be2bbd6705c7803b4af921daeb0072: 
+      created: '1621090372'
+      ecdsa_curve_name: ~
+      ecdsa_public: ~
+      friendly_name: Key for “catsecure.vn”
+      id: cdea5_5c1c7_f4be2bbd6705c7803b4af921daeb0072
+      key_algorithm: rsaEncryption
+      modulus: cdea5772eda098845e58f9e0a04e5c8f4ec5232bb7423e8879fc80aec9147ed84f7e998ce7c091c756325ae15b1571101887f3c1961b8897437ce24dff6a0d024ad8f16102c4d285e6938898573483d22f7fa01e89cb7169d83e6776174d519435deb3494b12b4c8fe85eafff95dbbb7c4a9961f624143e312c644c0bda832a84fec45198c553665aa1f49be2c024c7e6b9e8479659bbf52a85a90cd4b3cb0b2f0cf391897ab9ecfa78b08f6fb34e08780cf4f8c0ecd2c9faa7efbc2225422f24c2ee5447edb3d7be0ea62e1a7f3e890ba4f576849ee6bbc52cdfc8ee8e48e7108b2320913bcf591d323ae19be32c1e018ea6d47ad15e5a0ba7315454565c1c7
+      modulus_length: 2048
+indexes: 
+  certificate: 
+    modulus: 
+      a0d89b72710bf20fa095a8851c382d56aad77f728b1c9433e68c3ea424eb9fefebaf8f7ae858c56a5e34c5a0ec0f815b12b0b6fe7ae89b361ec9154787b72e738140a5ccc35c388d47996a1bcf44d66ee6bd8dc13492f3cadb8a2e8a6918f3b4dbacc2013a0a89bda694baa652e3ac28328a3f92a5a32f8e918c1f256e415c75e0b17ea2469f2e3e07ab3a0223279cd97eb50553a2abfb7d265a983c1a75bd0dfbf053c1c7c424f4ae038b04d69cdb955d3b1088b796c0250d2f0a1faccfa25714d9db4aa66b750a04fac4a2862cfb9181bb6b2480fc3753bd0d0d8348b5df8c655e6079dca6200970e1ea66eba66ef41a7bf9991e7acc703f4677f0253ed555: 
+        www_catsecure_vn_a0d89_ed555_1629289568_e621e58adb7e5c72443a9939c4853398: ~
+      cdea5772eda098845e58f9e0a04e5c8f4ec5232bb7423e8879fc80aec9147ed84f7e998ce7c091c756325ae15b1571101887f3c1961b8897437ce24dff6a0d024ad8f16102c4d285e6938898573483d22f7fa01e89cb7169d83e6776174d519435deb3494b12b4c8fe85eafff95dbbb7c4a9961f624143e312c644c0bda832a84fec45198c553665aa1f49be2c024c7e6b9e8479659bbf52a85a90cd4b3cb0b2f0cf391897ab9ecfa78b08f6fb34e08780cf4f8c0ecd2c9faa7efbc2225422f24c2ee5447edb3d7be0ea62e1a7f3e890ba4f576849ee6bbc52cdfc8ee8e48e7108b2320913bcf591d323ae19be32c1e018ea6d47ad15e5a0ba7315454565c1c7: 
+        catsecure_vn_cdea5_5c1c7_1652626372_3de60d62debfa4a2b72931b9013f0a9c: ~
+    subject.commonName: 
+      catsecure.vn: 
+        catsecure_vn_cdea5_5c1c7_1652626372_3de60d62debfa4a2b72931b9013f0a9c: ~
+      www.catsecure.vn: 
+        www_catsecure_vn_a0d89_ed555_1629289568_e621e58adb7e5c72443a9939c4853398: ~
+uniques: 
+  certificate: 
+    friendly_name: 
+      Cert for “catsecure.vn”: catsecure_vn_cdea5_5c1c7_1652626372_3de60d62debfa4a2b72931b9013f0a9c
+      Cert for “catsecure.vn” 1621517169.0: www_catsecure_vn_a0d89_ed555_1629289568_e621e58adb7e5c72443a9939c4853398
+  key: 
+    friendly_name: 
+      Key for “catsecure.vn”: cdea5_5c1c7_f4be2bbd6705c7803b4af921daeb0072
+      Key for “catsecure.vn” 1621517169.0: a0d89_ed555_bf9b9dc630f4b7d3881fd8f6dd2505aa
+    modulus:ecdsa_curve_name:ecdsa_public: 
+      a0d89b72710bf20fa095a8851c382d56aad77f728b1c9433e68c3ea424eb9fefebaf8f7ae858c56a5e34c5a0ec0f815b12b0b6fe7ae89b361ec9154787b72e738140a5ccc35c388d47996a1bcf44d66ee6bd8dc13492f3cadb8a2e8a6918f3b4dbacc2013a0a89bda694baa652e3ac28328a3f92a5a32f8e918c1f256e415c75e0b17ea2469f2e3e07ab3a0223279cd97eb50553a2abfb7d265a983c1a75bd0dfbf053c1c7c424f4ae038b04d69cdb955d3b1088b796c0250d2f0a1faccfa25714d9db4aa66b750a04fac4a2862cfb9181bb6b2480fc3753bd0d0d8348b5df8c655e6079dca6200970e1ea66eba66ef41a7bf9991e7acc703f4677f0253ed555: a0d89_ed555_bf9b9dc630f4b7d3881fd8f6dd2505aa
+      cdea5772eda098845e58f9e0a04e5c8f4ec5232bb7423e8879fc80aec9147ed84f7e998ce7c091c756325ae15b1571101887f3c1961b8897437ce24dff6a0d024ad8f16102c4d285e6938898573483d22f7fa01e89cb7169d83e6776174d519435deb3494b12b4c8fe85eafff95dbbb7c4a9961f624143e312c644c0bda832a84fec45198c553665aa1f49be2c024c7e6b9e8479659bbf52a85a90cd4b3cb0b2f0cf391897ab9ecfa78b08f6fb34e08780cf4f8c0ecd2c9faa7efbc2225422f24c2ee5447edb3d7be0ea62e1a7f3e890ba4f576849ee6bbc52cdfc8ee8e48e7108b2320913bcf591d323ae19be32c1e018ea6d47ad15e5a0ba7315454565c1c7: cdea5_5c1c7_f4be2bbd6705c7803b4af921daeb0072

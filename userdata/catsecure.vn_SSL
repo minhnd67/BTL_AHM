@@ -1,0 +1,18 @@
+--- 
+documentroot: /home/catsecur/public_html
+group: catsecur
+hascgi: 0
+homedir: /home/catsecur
+ip: 103.97.125.247
+ipv6: ~
+owner: root
+phpopenbasedirprotect: ~
+port: 442
+secruleengineoff: ~
+serveradmin: webmaster@catsecure.vn
+serveralias: mail.catsecure.vn www.catsecure.vn
+servername: catsecure.vn
+ssl: 1
+usecanonicalname: 'Off'
+user: catsecur
+userdirprotect: ''

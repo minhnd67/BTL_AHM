@@ -1,0 +1,47 @@
+/* * {
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: sans-serif, Verdana, arial;
+}  */
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.float-right {
+    font-weight: bold;
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+.payment-form div {
+    border-bottom: solid 1px rgba(122, 120, 120, 0.151);
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.payment-form form {
+    width: 90%;
+    margin: auto;
+    background-color: rgba(218, 216, 216, 0.507);
+    padding: 20px;
+}
+
+.payment-form input {
+    width: 100%;
+    border: none;
+    height: 50px;
+    background-color: rgb(243, 82, 82);
+    transition: 0.5s linear;
+    cursor: pointer;
+    color: white;
+}
+
+.payment-form input:hover {
+    background-color: rgb(236, 42, 42);
+}

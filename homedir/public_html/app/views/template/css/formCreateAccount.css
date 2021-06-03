@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: sans-serif, Verdana, arial;
+}
+
+.form-create-account {
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.form-create-account table {
+    width: 100%;
+}
+
+.form-create-account input[type="text"], .form-create-account input[type="password"],
+.form-create-account input[type="email"] {
+    width: 100%;
+}
+
+.form-create-account input {
+    padding: 5px;
+}
+
+.form-create-account td {
+    padding: 10px;
+}
+
+.form-create-account h2 {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.form-create-account button {
+    height: inherit;
+    border: solid 1px rgba(122, 120, 120, 0.603);
+    padding: 10px;
+    border-radius: 2px;
+    background-color: rgb(245, 66, 66);
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+    width: 100%;
+}
+
+.form-create-account button:hover {
+    background-color: rgb(243, 35, 35);
+}

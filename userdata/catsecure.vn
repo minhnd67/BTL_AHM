@@ -1,0 +1,26 @@
+--- 
+customlog: 
+  - 
+    format: combined
+    target: /etc/apache2/logs/domlogs/catsecure.vn
+  - 
+    format: "\"%{%s}t %I .\\n%{%s}t %O .\""
+    target: /etc/apache2/logs/domlogs/catsecure.vn-bytes_log
+documentroot: /home/catsecur/public_html
+group: catsecur
+hascgi: 0
+homedir: /home/catsecur
+ip: 103.97.125.247
+owner: root
+phpopenbasedirprotect: 1
+port: 82
+scriptalias: 
+  - 
+    path: /home/catsecur/public_html/cgi-bin
+    url: /cgi-bin/
+serveradmin: webmaster@catsecure.vn
+serveralias: mail.catsecure.vn www.catsecure.vn
+servername: catsecure.vn
+ssl_redirect: 1
+usecanonicalname: 'Off'
+user: catsecur
